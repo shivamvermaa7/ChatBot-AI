@@ -8,7 +8,7 @@ import { AuthProvider } from './context/AuthContext.tsx'
 import { Toaster } from "react-hot-toast";
 //we use axios to send the api request to backend
 import axios from "axios";
-axios.defaults.baseURL = "http://localhost:5000/api/v1";
+axios.defaults.baseURL = "https://chatbot-ai-backend-m0m2.onrender.com";
 axios.defaults.withCredentials = true;
 
 const theme = createTheme({
